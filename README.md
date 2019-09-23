@@ -3,7 +3,6 @@ Script to produce the hidden break plot from a 28S sequence and a paired RNA-seq
 - [kallisto](https://pachterlab.github.io/kallisto/download) 
 - [samtools](http://www.htslib.org/download/) 
 - [bedtools](https://bedtools.readthedocs.io/en/latest/content/installation.html) 
-<br>
  The local paths to the above software **must** be defined in the config file.
 <br>
 Furthermore, the following Python packages are also required: <br>
