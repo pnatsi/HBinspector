@@ -4,7 +4,7 @@ Script to produce the hidden break plot from a 28S sequence and a paired RNA-seq
 - [samtools](http://www.htslib.org/download/) 
 - [bedtools](https://bedtools.readthedocs.io/en/latest/content/installation.html) 
 <br>
-Furthermore, the following Python packages are also required:
+Furthermore, the following Python packages are also required: <br>
 - matplotlib 
 - numpy 
 <br>
