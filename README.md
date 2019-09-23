@@ -12,6 +12,7 @@ Furthermore, the following Python packages are also required:
 All the above tools and packages can be easily installed via the `conda` environment.
 <br> 
 <br>  
+
 ## Arguments
 Argument    |  Description             
 :-------------:|:-----------------------
@@ -20,6 +21,7 @@ Argument    |  Description
 -c filename | (full) path to config file
 -left | Position of the conserved 20-mer lying before the hidden break region*
 -right | Position of the conserved 20-mer lying after the hidden break region**
+
 <br>   
 <br>
 * left conserved region: AGUGGAGAAGGGUUCCAUGU
