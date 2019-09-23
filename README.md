@@ -5,7 +5,7 @@ Script to produce the hidden break plot from a 28S sequence and a paired RNA-seq
 - [bedtools](https://bedtools.readthedocs.io/en/latest/content/installation.html) 
 <br>
 
-The local paths to the above software **must** be defined in the config file.
+The local paths to these tools **must** be defined in the config file.
 
 <br>
 Furthermore, the following Python packages are also required: <br>
@@ -22,7 +22,7 @@ Furthermore, the following Python packages are also required: <br>
 Argument    |  Description             
 :-------------:|:-----------------------
 `-seq` | file w/ the 28S rRNA sequence
-`-reads` | files w/ paired RNA-seq reads (need to provide two filenames, see Example Usage)
+`-reads` | files w/ paired aboveRNA-seq reads (need to provide two filenames, see Example Usage)
 `-c` | (full) path to config file
 `-left` | Position of the conserved 20-mer lying before the hidden break region*
 `-right` | Position of the conserved 20-mer lying after the hidden break region**
