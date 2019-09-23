@@ -11,7 +11,7 @@ Furthermore, the following Python packages are also required: <br>
 - numpy 
 <br>
 <br> 
-All the above tools and packages can be easily installed via the `conda` environment.
+ All the above tools and packages can be easily installed via the `conda` environment.
 <br> 
 <br>  
 
