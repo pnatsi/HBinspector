@@ -15,11 +15,11 @@ All the above tools and packages can be easily installed via the `conda` environ
 ## Arguments
 Argument    |  Description             
 :-------------:|:-----------------------
--seq filename | file w/ the 28S rRNA sequence
--reads filename | files w/ paired RNA-seq reads (need to provide two, see Example Usage)
--c filename | (full) path to config file
--left | Position of the conserved 20-mer lying before the hidden break region*
--right | Position of the conserved 20-mer lying after the hidden break region**
+`-seq filename` | file w/ the 28S rRNA sequence
+`-reads filename` | files w/ paired RNA-seq reads (need to provide two, see Example Usage)
+`-c filename` | (full) path to config file
+`-left` | Position of the conserved 20-mer lying before the hidden break region*
+`-right` | Position of the conserved 20-mer lying after the hidden break region**
 
 <br>   
 <br>
