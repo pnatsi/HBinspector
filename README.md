@@ -24,7 +24,7 @@ Argument    |  Description
 
 <br>   
 <br>
-* left conserved region: AGUGGAGAAGGGUUCCAUGU
+* left conserved region: AGUGGAGAAGGGUUCCAUGU <br>
 ** right conserved region: CGAAAGGGAATCGGGTTTAA
  
 ## Example Usage
