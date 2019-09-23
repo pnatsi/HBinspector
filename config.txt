@@ -1,5 +1,15 @@
+
+# path to kallisto executable
 kallisto_path=/Users/wigo/bin/kallisto
+
+#path to samtools executable
 samtools_path=/Users/wigo/bin/samtools
+
+#path to bedtools executable
 bedtools_path=/Users/wigo/bin/bedtools
+
+#directory to write output files
 output_path=/Users/wigo/Desktop/projects/HBinspector/
+
+#name of analysed species
 species_name=Membranipora membranacea
