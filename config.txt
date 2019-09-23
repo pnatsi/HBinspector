@@ -1,0 +1,5 @@
+kallisto_path=/Users/wigo/bin/kallisto
+samtools_path=/Users/wigo/bin/samtools
+bedtools_path=/Users/wigo/bin/bedtools
+output_path=/Users/wigo/Desktop/projects/HBinspector/
+species_name=Membranipora membranacea
