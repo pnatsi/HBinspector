@@ -1,5 +1,8 @@
 # HBinspector
-Script to produce the hidden break plot from a 28S sequence and a paired RNA-seq dataset.
+Script to produce the hidden break plot from a 28S sequence and a paired RNA-seq dataset. This script depends on the following software to run:
+- kallisto (can be downloaded [here](www.google.com))
+- samtools (can be downloaded here)
+- bedtools (can be downloaded here)
 <br> 
 <br>  
 ## Arguments
