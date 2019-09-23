@@ -21,9 +21,9 @@ Furthermore, the following Python packages are also required: <br>
 ## Arguments
 Argument    |  Description             
 :-------------:|:-----------------------
-`-seq filename` | file w/ the 28S rRNA sequence
-`-reads filename` | files w/ paired RNA-seq reads (need to provide two, see Example Usage)
-`-c filename` | (full) path to config file
+`-seq` | file w/ the 28S rRNA sequence
+`-reads` | files w/ paired RNA-seq reads (need to provide two filenames, see Example Usage)
+`-c` | (full) path to config file
 `-left` | Position of the conserved 20-mer lying before the hidden break region*
 `-right` | Position of the conserved 20-mer lying after the hidden break region**
 
