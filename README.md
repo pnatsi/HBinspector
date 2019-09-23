@@ -12,7 +12,7 @@ Furthermore, the following Python packages are also required: <br>
 - matplotlib <br>
 - numpy 
  <br> 
- 
+
  All the above tools and packages can be easily installed via the ```conda``` environment.
  
  <br> 
