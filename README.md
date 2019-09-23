@@ -8,11 +8,9 @@ Script to produce the hidden break plot from a 28S sequence and a paired RNA-seq
 The local paths to the above software **must** be defined in the config file.
 
 <br>
-<br>
 Furthermore, the following Python packages are also required: <br>
 - matplotlib <br>
 - numpy 
- <br> 
  <br> 
  
  All the above tools and packages can be easily installed via the ```conda``` environment.
