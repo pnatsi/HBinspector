@@ -1,24 +1,29 @@
 # HBinspector
-Script to produce the hidden break plot from a 28S sequence and a paired RNA-seq dataset
+Script to produce the hidden break plot from a 28S sequence and a paired RNA-seq dataset.
 <br> 
 <br>  
 ## Arguments
 Argument    |  Description             
 :-------------:|:-----------------------
--seq filename | file w/ gene counts (from OrthoFinder output)
--reads filename | directory to write the output file(s)
--c filename | file w/ species. Analyze these species only
--left filename | file w/ species. Remove these species from analysis
--right | creates tsv file
+-seq filename | file w/ the 28S rRNA sequence
+-reads filename | files w/ paired RNA-seq reads (need to provide two, see Example Usage)
+-c filename | (full) path to config file
+-left filename | Position of the conserved 20-mer lying before the hidden break region*
+-right | Position of the conserved 20-mer lying after the hidden break region**
 <br>   
+<br>
+* left conserved region: AGUGGAGAAGGGUUCCAUGU
+** right conserved region: CGAAAGGGAATCGGGTTTAA
  
-## Example usage
+## Example Usage
+
+HBinspector needs a config file to run. This file will contain the paths to required tools (kallisto, samtools, bedtools) as well as the preferred path to write output, and the analysed species name (to be used in output files).
+<br>
+Please change the provided `config.txt` file according to the needs of your analysis.
 
 ```
-python orthocounts2bin.py -i /Users/pnatsi/orthology/Orthogroups.GeneCounts.tsv -o /Users/pnatsi/orthology/ -tsv -fasta
+python HBinspector.py -seq membranipora28S.fasta -reads SRR2131259_1.fastq.gz SRR2131259_2.fastq.gz -c config.txt -left 1657 -right 1935
 ```
- 
-**Careful! Only full path to config file is currently supported**
  
 <br>
 Who<br> 
