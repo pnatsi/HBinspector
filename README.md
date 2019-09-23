@@ -5,7 +5,7 @@ Script to produce the hidden break plot from a 28S sequence and a paired RNA-seq
 - [bedtools](https://bedtools.readthedocs.io/en/latest/content/installation.html) 
 <br>
 Furthermore, the following Python packages are also required: <br>
-- matplotlib 
+- matplotlib <br>
 - numpy 
 <br>
 All the above tools and packages can be easily installed via the `conda` environment.
