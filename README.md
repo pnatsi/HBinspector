@@ -24,8 +24,8 @@ Argument    |  Description
 `-seq` | file w/ the 28S rRNA sequence
 `-reads` | files w/ paired aboveRNA-seq reads (need to provide two filenames, see Example Usage)
 `-c` | (full) path to config file
-`-left` | Position of the conserved 20-mer lying before the hidden break region*
-`-right` | Position of the conserved 20-mer lying after the hidden break region**
+`-left` | Position of the conserved 20-mer lying before the hidden break region in the 28S sequence*
+`-right` | Position of the conserved 20-mer lying after the hidden break region in the 28S sequence**
 
 <br>   
 <br>
