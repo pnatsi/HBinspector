@@ -36,7 +36,7 @@ Argument    |  Description
 
 HBinspector needs a config file to run. This file will contain the paths to required tools (kallisto, samtools, bedtools) as well as the preferred path to write output, and the analysed species name (to be used in output files).
 <br>
-Please change the provided `config.txt` file according to the needs of your analysis.
+Please change the provided `config.txt` file accordingly before running your own analysis.
 
 ```
 python HBinspector.py -seq membranipora28S.fasta -reads SRR2131259_1.fastq.gz SRR2131259_2.fastq.gz -c config.txt -left 1657 -right 1935
