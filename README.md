@@ -39,6 +39,15 @@ Please change the provided `config.txt` file accordingly before running your own
 ```
 python HBinspector.py -seq membranipora28S.fasta -reads SRR2131259_1.fastq.gz SRR2131259_2.fastq.gz -c config.txt -left 1657 -right 1935
 ```
+
+## Example Usage
+
+If you use HBinspector please cite the following publications:
+
+Bray.N.L., Pimentel.H., Melsted.P., Pachter.L. (2016) “Near-optimal probabilistic RNA-seq quantification” Nat Biotechnol, 34, 525–527 <br>
+Li.H., Handsaker.B., Wysoker.A., Fennell.T., Ruan.J., Homer.N., Marth.G., Abecasis.G., Durbin.R.; 1000 Genome Project Data Processing Subgroup. (2009) The Sequence Alignment / Map format and SAMtools. Bioinformatics. 25, 2078–2079.<br>
+Quinlan.A.R., Hall.I.M. (2010) BEDTools: a flexible suite of utilities for comparing genomic features. Bioinformatics, 26, 841–842. 
+
  
 <br>
 Who<br> 
